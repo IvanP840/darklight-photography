@@ -19,6 +19,8 @@ body {
 }
 header {
   background-color: black;
+  border-bottom: 1px solid rgb(39, 39, 39) ;
+  
  }
 h1 {
   text-align: center;
@@ -30,12 +32,35 @@ h1 {
   font-weight: bolder;
 
 }
-footer ul li {
-  display: inline-block;
-  margin-right: 10px;
+
+footer {
+  padding: 20px;
+  border-top: .5px solid rgb(39, 39, 39);
+
+}
+footer ul {
+  display: flex;
+  justify-content:flex-end;
 }
 
 
+footer ul li {
+  list-style: none;
+}
+
+footer .bi {
+
+  color: whitesmoke;
+  font-size: 2.3rem;
+  margin-right: 20px;
+}
+
+footer .bi-facebook:hover {
+color: rgb(24, 119, 242);
+}
+footer .bi-instagram:hover {
+  color: rgb(225, 48, 108);
+}
 
 /* header*/
 
@@ -65,7 +90,7 @@ nav a img {
   justify-content: center;
 }
 .portada img {
-  border: solid 1px rgb(78, 78, 78);
+  border: solid 1px rgb(39, 39, 39);
   border-radius: 5px;
   margin-top: 50px;
 }
@@ -75,17 +100,6 @@ nav a img {
   font-size: 1.6rem;
 }
 
-.logo {
-  display: flex;
-  justify-content: flex-end;
-  
-}
-.logo li img {
-  width: 50px;
-  padding: 15px 5px;
-  margin-top: 50px;
-  
-}
 
 .galeria-inicio {
   display: grid;
