@@ -321,19 +321,24 @@ h2 {
 .yo {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+  
+  
 }
 
 .yo img {
   border-radius: 5px;
+  margin-left: 20px;
+  width: 600px;
 }
 
 .mi {
   padding: 50px;
   font-size: 1.4rem;
-  border: solid 1px rgb(78, 78, 78);
-  border-radius: 5px;
-  margin: 30px 20px;
-  text-align: center;
+  text-align:justify;
+  
 }
 
 /*media queries*/
@@ -378,8 +383,18 @@ h2 {
   }
   /*sobre mi*/
 
+  .yo {
+    flex-direction: column;
+    align-items: center;
+  }
   .yo img {
     width: 95%;
+    margin-left: 0px;
+    }
+
+  .mi {
+    padding-top: 50px;
+    border: none;
   }
   /*servicios*/
   .carousel-inner1 {
