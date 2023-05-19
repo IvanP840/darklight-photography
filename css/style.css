@@ -19,9 +19,7 @@ body {
 }
 header {
   background-color: black;
-  border-bottom: 1px solid rgb(39, 39, 39) ;
-  
- }
+  }
 h1 {
   text-align: center;
   margin: 20px;
@@ -46,6 +44,7 @@ footer ul {
 
 footer ul li {
   list-style: none;
+  
 }
 
 footer .bi {
@@ -53,6 +52,7 @@ footer .bi {
   color: whitesmoke;
   font-size: 2.3rem;
   margin-right: 20px;
+  
 }
 
 footer .bi-facebook:hover {
@@ -159,19 +159,31 @@ nav a img {
   margin-bottom: 30px;
   margin-left: 200px;
   margin-right: 200px;
-  font-size: 1.3rem;
+  font-size: 1.3rem;  
+}
+.btn-secondary {
+  margin-bottom: 150px;
 }
 /*servicios*/
 
 .intro-servicios {
   text-align:center;
   padding: 20px;
+  font-size: 1.3rem;
 }
-.carousel-inner {
+.carousel-inner1 {
   width: 1200px;
   height: 720px;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+.carousel-inner2 {
+  width: 533px;
+  height: 800px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 /*portfolio*/
 
