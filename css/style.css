@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Roboto:wght@400;700&display=swap");
-
 /* reset */
 * {
   padding: 0px;
@@ -19,16 +18,20 @@ p {
   font-size: 1.4rem;
   text-align: justify;
 }
+
 .navbar-collapse {
   flex-grow: initial;
 }
+
 header {
   background-color: black;
 }
+
 h1 {
   text-align: center;
   margin: 20px;
 }
+
 .nav-link {
   color: whitesmoke;
   font-size: 1.5rem;
@@ -39,6 +42,7 @@ footer {
   padding: 20px;
   border-top: 0.5px solid rgb(39, 39, 39);
 }
+
 footer ul {
   display: flex;
   justify-content: flex-end;
@@ -57,14 +61,16 @@ footer .bi {
 footer .bi-facebook:hover {
   color: rgb(24, 119, 242);
 }
+
 footer .bi-instagram:hover {
   color: rgb(225, 48, 108);
 }
+
 footer .bi-whatsapp:hover {
   color: #25d366;
 }
-/* header*/
 
+/* header*/
 ul li:hover {
   transform: scale(1.06);
 }
@@ -74,7 +80,6 @@ ul li {
 }
 
 /* menu */
-
 nav a img:hover {
   transform: scale(1.04);
 }
@@ -88,6 +93,7 @@ nav a img {
   display: flex;
   justify-content: center;
 }
+
 .portada img {
   border: solid 1px rgb(39, 39, 39);
   border-radius: 5px;
@@ -112,6 +118,7 @@ nav a img {
   object-fit: cover;
   transition: transform 0.3s ease;
 }
+
 .galeria-img:hover {
   transform: scale(1.04);
 }
@@ -119,66 +126,44 @@ nav a img {
 .galeria-item:nth-child(1) {
   grid-row-start: span 2;
 }
+
 .galeria-item:nth-child(2) {
   grid-column-start: span 2;
   grid-row-start: span 2;
 }
+
 .galeria-item:nth-child(3) {
   grid-row-start: span 2;
 }
+
 .galeria-item:nth-child(4) {
   grid-row-start: span 2;
 }
+
 .galeria-item:nth-child(5) {
   grid-row-start: span 4;
 }
+
 .galeria-item:nth-child(6) {
   grid-column-start: span 2;
 }
+
 .galeria-item:nth-child(7) {
   grid-column-start: span 2;
   grid-row-start: span 2;
 }
+
 .galeria-item:nth-child(8) {
   grid-column-start: span 2;
   grid-row-start: span 3;
 }
+
 .galeria-item:nth-child(9) {
   grid-column-start: span 2;
   grid-row-start: span 2;
 }
 
-/*contacto*/
-.contacto {
-  padding: 50px;
-  margin-bottom: 30px;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-.btn-secondary {
-  margin-bottom: 150px;
-}
-/*servicios*/
-
-.intro-servicios {
-  padding: 50px;
-}
-.carousel-inner1 {
-  width: 1200px;
-  height: 720px;
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-.carousel-inner2 {
-  width: 533px;
-  height: 800px;
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 /*portfolio*/
-
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -193,12 +178,15 @@ nav a img {
   width: 100%;
   height: 100%;
 }
+
 .gallery-item img {
   transition: transform 0.3s ease;
 }
+
 .gallery-item {
   position: relative;
 }
+
 .gallery-img:hover {
   transform: scale(1.05);
 }
@@ -212,98 +200,158 @@ h2 {
 .gallery-item:nth-child(1) {
   grid-column-start: span 3;
 }
+
 .gallery-item:nth-child(2) {
   grid-column-start: span 3;
 }
+
 .gallery-item:nth-child(6) {
   grid-column-start: span 2;
   grid-row-start: span 2;
 }
+
 .gallery-item:nth-child(9) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(11) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(13) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(14) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(15) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(16) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(17) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(19) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(20) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(21) {
   grid-column-start: span 2;
   grid-row-start: span 2;
 }
+
 .gallery-item:nth-child(23) {
   grid-column-start: span 3;
   grid-row-start: span 1;
 }
+
 .gallery-item:nth-child(22) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(27) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(24) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(30) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(31) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(32) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(38) {
   grid-column-start: span 2;
   grid-row-start: span 2;
 }
+
 .gallery-item:nth-child(43) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(46) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(45) {
   grid-column-start: span 4;
 }
+
 .gallery-item:nth-child(47) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(44) {
   grid-column-start: span 3;
   grid-row-start: span 2;
 }
+
 .gallery-item:nth-child(37) {
   grid-row-start: span 2;
 }
+
 .gallery-item:nth-child(42) {
   grid-column-start: span 2;
 }
+
 .gallery-item:nth-child(36) {
   grid-row-start: span 2;
 }
 
-/*sobre mi*/
+/*servicios*/
+.intro-servicios {
+  padding: 50px;
+}
 
+.carousel-inner1 {
+  width: 1200px;
+  height: 720px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.carousel-inner2 {
+  width: 533px;
+  height: 800px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*contacto*/
+.contacto {
+  padding: 50px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.btn-secondary {
+  margin-bottom: 150px;
+}
+
+/*sobre mi*/
 .yo {
   display: flex;
   justify-content: center;
@@ -322,11 +370,7 @@ h2 {
 }
 
 /*media queries*/
-
 /*tablet*/
-@media only screen and (max-width: 768px) {
-}
-
 /*mobile*/
 @media only screen and (max-width: 576px) {
   /*index*/
@@ -352,7 +396,6 @@ h2 {
     grid-row-start: span 4;
     grid-column-start: span 2;
   }
-
   .contacto {
     text-align: center;
     padding: 30px;
@@ -362,7 +405,6 @@ h2 {
     font-size: 1.3rem;
   }
   /*sobre mi*/
-
   .yo {
     flex-direction: column;
     align-items: center;
@@ -371,7 +413,6 @@ h2 {
     width: 95%;
     margin-left: 0px;
   }
-
   .mi {
     padding-top: 50px;
     border: none;
@@ -382,9 +423,7 @@ h2 {
     height: 432px;
     margin-bottom: 30px;
   }
-
   /*portfolio*/
-
   .gallery-container {
     display: flex;
     flex-wrap: wrap;
@@ -393,3 +432,5 @@ h2 {
     width: 100%;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
