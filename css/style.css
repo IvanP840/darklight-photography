@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 /* reset */
 * {
@@ -11,9 +11,14 @@
 body {
   background-color: black;
   color: whitesmoke;
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display SC", serif;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  text-align: justify;
+}
 .navbar-collapse {
   flex-grow: initial;
 }
@@ -91,7 +96,6 @@ nav a img {
 
 .intro {
   padding: 50px;
-  font-size: 1.6rem;
 }
 
 .galeria-inicio {
@@ -146,12 +150,10 @@ nav a img {
 
 /*contacto*/
 .contacto {
-  text-align: center;
-  padding: 30px;
+  padding: 50px;
   margin-bottom: 30px;
   margin-left: 200px;
   margin-right: 200px;
-  font-size: 1.3rem;
 }
 .btn-secondary {
   margin-bottom: 150px;
@@ -159,9 +161,7 @@ nav a img {
 /*servicios*/
 
 .intro-servicios {
-  text-align: center;
-  padding: 20px;
-  font-size: 1.3rem;
+  padding: 50px;
 }
 .carousel-inner1 {
   width: 1200px;
@@ -319,8 +319,6 @@ h2 {
 
 .mi {
   padding: 50px;
-  font-size: 1.4rem;
-  text-align: justify;
 }
 
 /*media queries*/
