@@ -16,25 +16,26 @@
   /*index*/
   nav {
     flex-direction: column;
+    a {
+      height: 80px;
+      align-self: center;
+    }
   }
-  nav a {
-    height: 80px;
-    align-self: center;
-  }
+
   .portada img {
     width: 90%;
   }
   .galeria-inicio {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 150px;
-  }
-  .galeria-item:nth-child(5) {
-    grid-row-start: span 4;
-    grid-column-start: span 2;
-  }
-  .galeria-item:nth-child(1) {
-    grid-row-start: span 4;
-    grid-column-start: span 2;
+    .galeria-item:nth-child(5) {
+      grid-row-start: span 4;
+      grid-column-start: span 2;
+    }
+    .galeria-item:nth-child(1) {
+      grid-row-start: span 4;
+      grid-column-start: span 2;
+    }
   }
 
   .contacto {
@@ -50,16 +51,16 @@
   .yo {
     flex-direction: column;
     align-items: center;
-  }
-  .yo img {
-    width: 95%;
-    margin-left: 0px;
+    img {
+      width: 95%;
+      margin-left: 0px;
+    }
+    .mi {
+      padding-top: 50px;
+      border: none;
+    }
   }
 
-  .mi {
-    padding-top: 50px;
-    border: none;
-  }
   /*servicios*/
   .carousel-inner1 {
     width: 576px;
@@ -72,8 +73,8 @@
   .gallery-container {
     display: flex;
     flex-wrap: wrap;
-  }
-  .gallery-item:nth-child(4) {
-    width: 100%;
+    .gallery-item:nth-child(4) {
+      width: 100%;
+    }
   }
 }

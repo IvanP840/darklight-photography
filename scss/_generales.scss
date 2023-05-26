@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-/* Generales*/
 body {
   background-color: black;
   color: whitesmoke;
@@ -19,65 +18,57 @@ p {
   font-size: 1.4rem;
   text-align: justify;
 }
-.navbar-collapse {
-  flex-grow: initial;
-}
 header {
   background-color: black;
+  .navbar-collapse {
+    flex-grow: initial;
+  }
+  .nav-link {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  ul li {
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.06);
+    }
+  }
+  nav a img {
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.04);
+    }
+  }
 }
+
 h1 {
   text-align: center;
   margin: 20px;
-}
-.nav-link {
-  color: whitesmoke;
-  font-size: 1.5rem;
-  font-weight: bolder;
 }
 
 footer {
   padding: 20px;
   border-top: 0.5px solid rgb(39, 39, 39);
-}
-footer ul {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul li {
-  list-style: none;
-}
-
-footer .bi {
-  color: whitesmoke;
-  font-size: 2.3rem;
-  margin-right: 20px;
-}
-
-footer .bi-facebook:hover {
-  color: rgb(24, 119, 242);
-}
-footer .bi-instagram:hover {
-  color: rgb(225, 48, 108);
-}
-footer .bi-whatsapp:hover {
-  color: #25d366;
-}
-/* header*/
-
-ul li:hover {
-  transform: scale(1.06);
-}
-
-ul li {
-  transition: transform 0.3s ease;
-}
-/* menu */
-
-nav a img:hover {
-  transform: scale(1.04);
-}
-
-nav a img {
-  transition: transform 0.3s ease;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  li {
+    list-style: none;
+  }
+  .bi {
+    color: whitesmoke;
+    font-size: 2.3rem;
+    margin-right: 20px;
+    &-facebook:hover {
+      color: rgb(24, 119, 242);
+    }
+    &-instagram:hover {
+      color: rgb(225, 48, 108);
+    }
+    &-whatsapp:hover {
+      color: #25d366;
+    }
+  }
 }
