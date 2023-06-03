@@ -334,6 +334,11 @@ h2 {
     height: 80px;
     align-self: center;
   }
+  nav a img {
+    width: 220px;
+    height: 100px;
+    object-fit: cover;
+  }
   .portada img {
     width: 90%;
   }

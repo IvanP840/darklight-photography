@@ -12,6 +12,11 @@
     a {
       height: 80px;
       align-self: center;
+      img {
+        width: 220px;
+        height: 100px;
+        object-fit: cover;
+      }
     }
   }
 
