@@ -1,80 +1,15 @@
+//imports base
+@import "base/vars";
+@import "base/utilities";
+@import "base/reset";
+
+//imports generales
 @import "generales.scss";
+
+//import layout
 @import "index.scss";
 @import "portfolio.scss";
 @import "servicios.scss";
 @import "contacto.scss";
 @import "sobre-mi.scss";
-
-/*media queries*/
-
-/*tablet*/
-@media only screen and (max-width: 768px) {
-}
-
-/*mobile*/
-@media only screen and (max-width: 576px) {
-  /*index*/
-  nav {
-    flex-direction: column;
-    a {
-      height: 80px;
-      align-self: center;
-    }
-  }
-
-  .portada img {
-    width: 90%;
-  }
-  .galeria-inicio {
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 150px;
-    .galeria-item:nth-child(5) {
-      grid-row-start: span 4;
-      grid-column-start: span 2;
-    }
-    .galeria-item:nth-child(1) {
-      grid-row-start: span 4;
-      grid-column-start: span 2;
-    }
-  }
-
-  .contacto {
-    text-align: center;
-    padding: 30px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-size: 1.3rem;
-  }
-  /*sobre mi*/
-
-  .yo {
-    flex-direction: column;
-    align-items: center;
-    img {
-      width: 95%;
-      margin-left: 0px;
-    }
-    .mi {
-      padding-top: 50px;
-      border: none;
-    }
-  }
-
-  /*servicios*/
-  .carousel-inner1 {
-    width: 576px;
-    height: 432px;
-    margin-bottom: 30px;
-  }
-
-  /*portfolio*/
-
-  .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    .gallery-item:nth-child(4) {
-      width: 100%;
-    }
-  }
-}
+@import "medias.scss";
