@@ -19,9 +19,6 @@ p {
 }
 
 /*Navbar*/
-header {
-  background-color: black;
-}
 header .navbar-collapse {
   flex-grow: initial;
 }
