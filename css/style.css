@@ -311,7 +311,7 @@ footer .bi-whatsapp:hover {
 /*media queries*/
 /*tablet*/
 /*mobile*/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 400px) {
   /*index*/
   nav {
     flex-direction: column;
@@ -364,7 +364,7 @@ footer .bi-whatsapp:hover {
   }
   /*servicios*/
   .carousel-inner1 {
-    width: 400px;
+    width: 399px;
     height: 240px;
     margin-bottom: 30px;
   }
