@@ -298,6 +298,7 @@ footer .bi-whatsapp:hover {
   justify-content: center;
   margin-bottom: 50px;
   margin-top: 50px;
+  overflow-x: hidden;
 }
 .yo img {
   border-radius: 5px;
